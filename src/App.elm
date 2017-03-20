@@ -17,6 +17,9 @@ type alias Size =
     , height : Int
     }
 
+newLine : String
+newLine = ""
+
 
 type alias Model =
     { size : Size
